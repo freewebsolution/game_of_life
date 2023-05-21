@@ -13,7 +13,7 @@ class LifeController extends Controller
 
         $life = new Life();
         $life->generateRandomGrid();
-        //$life->createGrid();
+        $life->createGrid();
 
 
         return view('home')->with(compact('life'));

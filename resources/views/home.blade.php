@@ -27,22 +27,18 @@
                             </i>
                         </small>
                     </p>
-                    {{-- <p class="mb-4">Per giocare premi su start</p> --}}
-                    {{-- <button class="btn btn-success btn-sm mb-3" id="start-btn" class="btn btn-primary">Start</button> --}}
-                    {{-- <div id="game-grid" class="col-md-12">
+                    <p class="mb-4">Per giocare premi su start</p>
+                    <button class="btn btn-success btn-sm mb-3" id="start-btn" class="btn btn-primary">Start</button>
+                    <div id="game-grid" class="col-md-12">
                         <!-- Il tuo grid sarà generato qui tramite JavaScript -->
-                    </div> --}}
-
-                    @php
-                        echo $life->render($life);
-                        $life->runLife();
-                    @endphp
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    {{-- <script>
+
+    <script>
         var life = JSON.parse('@json($life)');
         var grid;
         var gameInterval;
@@ -208,7 +204,7 @@
         // Aggiungi l'elemento del pulsante di avvio
         var startButton = document.getElementById('start-btn');
         startButton.addEventListener('click', startGame);
-    </script> --}}
+    </script>
 </body>
 
 </html>
