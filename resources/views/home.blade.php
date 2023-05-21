@@ -18,10 +18,10 @@
                     <p>
                         <small>
                             <i>
-                                Qualsiasi cellula viva con meno di due vicini vivi muore, come per sottopopolazione.
-                                Qualsiasi cellula viva con due o tre vicini vivi sopravvive alla generazione successiva.
-                                Qualsiasi cellula viva con più di tre vicini vivi muore, come per sovrappopolazione.
-                                Qualsiasi cellula morta con esattamente tre vicini vivi diventa una cellula viva, come
+                                Qualsiasi cella viva con meno di due vicini vivi muore, come per sottopopolazione.
+                                Qualsiasi cella viva con due o tre vicini vivi sopravvive alla generazione successiva.
+                                Qualsiasi cella viva con più di tre vicini vivi muore, come per sovrappopolazione.
+                                Qualsiasi cella morta con esattamente tre vicini vivi diventa una cellula viva, come
                                 per
                                 riproduzione.
                             </i>
